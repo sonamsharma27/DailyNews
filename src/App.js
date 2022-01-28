@@ -11,7 +11,7 @@ import {
 
 const App = () => {
 
- const [progress, setProgress] = useState(30);
+ const [progress, setProgress] = useState(0);
 
  const  api="3871592d487947e78778849bdc311675"  ; //not kept api in state because it will not change
   // state = { //states are defined in state object
