@@ -40,7 +40,7 @@ const App = () => {
           <Routes>
             <Route exact path="/" element={<NewsComponent setProgress={setProgress} api={api} key="1" country="in" category="general" />}></Route>
             <Route exact path="/general" element={<NewsComponent setProgress={setProgress} api={api} key="2" country="in" category="general" />}></Route>
-            <Route exact path="/entertainment" element={<NewsComponent setProgress={setProgress} api={api} key="3" country="in" category="entertainment" />}></Route>
+            <Route exact path="/entertainment"  element={<NewsComponent setProgress={setProgress} api={api} key="3" country="in" category="entertainment" />}></Route>
             <Route exact path="/business" element={<NewsComponent setProgress={setProgress} api={api} key="4" country="in" category="business" />}></Route>
             <Route exact path="/health" element={<NewsComponent setProgress={setProgress} api={api} key="5" country="in" category="health" />}></Route>
             <Route exact path="/science" element={<NewsComponent setProgress={setProgress} api={api} key="6" country="in" category="science" />}></Route>
