@@ -8,7 +8,7 @@ const Navbar = () => {
         return (
             <div>
             <nav className="navbar fixed-top navbar-expand-lg br3 bw1 ba b-blue  navbar-light " style={{backgroundImage:"radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% )"}}>
-  <Link className="navbar-brand" to="/">DailyNews</Link>
+  <Link className="navbar-brand" to={process.env.PUBLIC_URL+"/"}>DailyNews</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
