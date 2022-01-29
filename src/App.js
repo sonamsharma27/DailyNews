@@ -8,7 +8,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-
+//import { HashRouter as Router } from 'react-router-dom'
 const App = () => {
 
  const [progress, setProgress] = useState(0);
@@ -27,7 +27,7 @@ const App = () => {
     return (
       <div style={{ backgroundImage: "linear-gradient(to right, #2c3e50, #4ca1af)" }}>
 
-        <Router>
+        <Router  basename={process.env.PUBLIC_URL} >
           <LoadingBar
             height={3}
             color='#f11946'
